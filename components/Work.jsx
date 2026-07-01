@@ -19,68 +19,67 @@ import ProjectCard from "./ProjectCard";
 
 const ProjectData = [
   {
-    image: "/work/portfolio.png",
-    category: "next js",
-    name: "Portfolio",
+    image: "/work/foodrent.png",
+    category: "mobile app",
+    name: "Food & Rental App",
     description:
-      "Explore my portfolio website to see my work as a MERN stack developer, showcasing projects that blend creativity with technical expertise.",
-    link: "https://tayyabcheema-portfolio.vercel.app/",
-    github: "https://github.com/tayyabcheema/portfolio",
-  },
-
-  {
-    image: "/work/lifeflow.png",
-    category: "full stack",
-    name: "Lifeflow",
-    description:
-      "Lifeflow is a blood management system for tracking stock, scheduling donations, and managing appointments efficiently.",
-    link: "https://lifeflow-frontend-client.vercel.app/",
-    github: "https://github.com/tayyabcheema/Lifeflow-FYP",
-  },
-  {
-    image: "/work/booking.png",
-    category: "react js",
-    name: "Hotel Reservation",
-    description:
-      "Hotel reservation website for users to easily search, compare, and book rooms with real-time availability and secure payments.",
-    link: "https://impala.travel/",
-    github: "https://github.com/tayyabcheema/Hotel-Reservation",
+      "A mobile app for students and workers to find home-cooked meals and rooms for rent.",
+    link: "https://github.com/mf-fatima",
+    github: "https://github.com/mf-fatima",
   },
   {
     image: "/work/shopsy.png",
+    category: "wordpress",
+    name: "Clothing Store",
+    description:
+      "A WordPress e-commerce store with modern UI, product browsing, and payment-ready shopping flows.",
+    link: "https://www.youtube.com/",
+    github: "https://github.com/mf-fatima",
+  },
+  {
+    image: "/work/hms.png",
+    category: "desktop app",
+    name: "Hospital Management System",
+    description:
+      "A C# desktop application for hospital workflow automation and management tasks.",
+    link: "https://github.com/mf-fatima",
+    github: "https://github.com/mf-fatima",
+  },
+  {
+    image: "/work/buffer.jpg",
     category: "react js",
-    name: "Shopsy",
+    name: "Buffer Clone",
     description:
-      "Shopsy an online shopping website that allows users to browse, compare, and purchase products easily with a secure checkout process",
-    link: "https://www.onlineshopsy.in/",
-    github: "/",
+      "A responsive Buffer website clone built with HTML, Tailwind CSS, and JavaScript.",
+    link: "https://buffer-clone-tawny.vercel.app",
+    github: "https://github.com/mf-fatima",
   },
   {
-    image: "/work/real_estate.png",
-    category: "next js",
-    name: "Real Estate",
-    description:
-      "Real Estate website that enables users to search, compare, and inquire about properties, providing detailed options.",
-    link: "https://maahomes.in",
-    github: "/",
-  },
-  {
-    image: "/work/admin.png",
+    image: "/work/todo.png",
     category: "react js",
-    name: "Admin Dashboard",
+    name: "To-Do App",
     description:
-      "Admin dashboard providing a comprehensive interface to manage blood stock, monitor donations, and oversee appointments.",
-    link: "/",
-    github: "https://github.com/tayyabcheema/AWD-Project",
+      "A responsive To-Do app with task management, progress tracking, and dark/light mode.",
+    link: "https://my-to-do-app-pi.vercel.app",
+    github: "https://github.com/mf-fatima",
   },
   {
-    image: "/work/nexa.png",
-    category: "next js",
-    name: "Nexa Learn",
+    image: "/work/travel.png",
+    category: "mern stack",
+    name: "Travel Blogging Website",
     description:
-      "Platform that allows users to explore, enroll in, and track their learning progress with interactive course materials and assessments.",
-    link: "/",
-    github: "/",
+      "A full-stack travel blogging platform where users can create, read, and manage travel blogs.",
+    link: "https://github.com/mf-fatima/travel_blog-frontend",
+    github: "https://github.com/mf-fatima/travel-blog-backend",
+  },
+  {
+    image: "/work/ecom.png",
+    category: "mern stack",
+    name: "Multi-Vendor E-commerce",
+    description:
+      "A MERN e-commerce platform with secure authentication, product, cart, and order management.",
+    link: "https://github.com/mf-fatima/ecommerce-frontend",
+    github: "https://github.com/mf-fatima/my_ecommerce_backened",
   },
 ];
 
@@ -92,9 +91,8 @@ const Work = () => {
         <div className=" max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">
-            Check out my recent work, featuring a variety of web applications
-            that highlight my skills in creating effective and user-friendly
-            solutions.
+            Check out my recent work across web, mobile, WordPress, desktop,
+            and MERN stack applications.
           </p>
           <Link href="/projects">
             <Button>All Projects</Button>
@@ -115,7 +113,7 @@ const Work = () => {
             pagination={{ clickable: true }}
           >
             {/* Show only the 1st 4 projects for the slides */}
-            {ProjectData.slice(0, 4).map((project, index) => {
+            {ProjectData.slice(0, 6).map((project, index) => {
               return (
                 <SwiperSlide key={index}>
                   <ProjectCard project={project} />

@@ -10,18 +10,18 @@ import {
 const ServicesData = [
     {
         icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-        title: 'Web Design',
-        description: "Crafting visually appealing and user-friendly interfaces that enhance user experience and engagement, ensuring brand consistency."
+        title: 'Frontend Development',
+        description: "Building responsive, polished interfaces with React, Next.js, Tailwind CSS, and clean component structure."
     },
     {
         icon: <Blocks size={72} strokeWidth={0.8} />,
-        title: 'Web Development',
-        description: "Building dynamic, high-performing websites with a focus on functionality and scalability, tailored to meet business needs."
+        title: 'Full Stack Development',
+        description: "Creating scalable MERN applications with authentication, APIs, dashboards, product flows, and database-backed features."
     },
     {
         icon: <Gem size={72} strokeWidth={0.8} />,
-        title: 'App Development',
-        description: "Creating intuitive, responsive applications that deliver seamless user experiences across devices, prioritizing efficiency and innovation."
+        title: 'WordPress & E-commerce',
+        description: "Designing business-ready WordPress and e-commerce experiences with modern layouts and practical user journeys."
     },
 ]
 

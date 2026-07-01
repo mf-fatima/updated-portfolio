@@ -24,28 +24,28 @@ const reviewsData = [
     name: "Aqeel Tariq",
     job: "Senior Software Engineer",
     review:
-      "Working with Tayyab has been a game-changer for my projects. He’s not only technically proficient but also great at understanding requirements and translating them into efficient, user-friendly applications.",
+      "Working with Maryam has been a game-changer for my projects. She’s not only technically proficient but also great at understanding requirements and translating them into efficient, user-friendly applications.",
   },
   {
     avatar: "/reviews/avatar-8.png",
     name: "Alex Fernandez",
     job: "Software Development Consultant",
     review:
-      "Tayyab consistently delivers top-notch code and innovative solutions. His expertise in full stack development, especially on the backend, has been invaluable to our projects. He’s a reliable team player who always goes the extra mile.",
+      "Maryam consistently delivers top-notch code and innovative solutions. Her expertise in full stack development, especially on the backend, has been invaluable to our projects. She’s a reliable team player who always goes the extra mile.",
   },
   {
     avatar: "/reviews/avatar-9.png",
     name: "Sophie Martin",
     job: "UX/UI Designer",
     review:
-      "Tayyab’s collaboration on our projects has been outstanding. His ability to integrate complex backend systems with intuitive, seamless frontend designs has resulted in highly successful products. He’s a true asset to any projects.",
+      "Maryam’s collaboration on our projects has been outstanding. Her ability to integrate complex backend systems with intuitive, seamless frontend designs has resulted in highly successful products. She’s a true asset to any projects.",
   },
   {
     avatar: "/reviews/avatar-10.png",
     name: "Ahmed Yusuf",
     job: "Full Stack Developer",
     review:
-      "Tayyab’s expertise in backend development is second to none. He has an exceptional ability to streamline processes and optimize performance. His work has consistently improved my application’s reliability and speed.",
+      "Maryam’s expertise in backend development is second to none. She has an exceptional ability to streamline processes and optimize performance. Her work has consistently improved my application’s reliability and speed.",
   },
 ];
 

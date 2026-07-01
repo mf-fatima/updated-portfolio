@@ -6,23 +6,23 @@ import Image from "next/image";
 const infoData = [
   {
     icon: <User2 size={20} />,
-    name: "Tayyab Cheema",
+    name: "Maryam Fatima",
   },
   {
     icon: <PhoneCall size={20} />,
-    name: "+40731265498 ",
+    name: "Available on request",
   },
   {
     icon: <Mail size={20} />,
-    name: "tayyabcheemadev@gmail.com",
+    name: "Open for collaboration",
   },
   {
     icon: <GraduationCap size={20} />,
-    name: "BS-CS from University of Gujrat",
+    name: "Full Stack Developer",
   },
   {
     icon: <HomeIcon size={20} />,
-    name: "Bucharest, Romania",
+    name: "Pakistan",
   },
 ];
 
@@ -31,14 +31,14 @@ const qualificationData = [
     title: "education",
     data: [
       {
-        university: "University of Gujrat",
-        qualification: "Bachelor in Computer Science",
-        years: "Nov 2020 - July 2024",
+        university: "Self-led Development Practice",
+        qualification: "Full Stack, MERN, and WordPress Development",
+        years: "Ongoing",
       },
       {
-        university: "Coursera",
-        qualification: "Meta Certified Full-Stack Developer",
-        years: "Jan 2023 - August 2023",
+        university: "Project-Based Learning",
+        qualification: "Web, mobile, e-commerce, and management systems",
+        years: "Recent work",
       },
     ],
   },
@@ -46,9 +46,9 @@ const qualificationData = [
     title: "experience",
     data: [
       {
-        company: "Devthon Labs",
-        role: "Founder",
-        years: "July 2025 - Present",
+        company: "Freelance",
+        role: "Full Stack and WordPress Developer",
+        years: "Present",
       },
       // {
       //   company: "Boson Studio",
@@ -56,9 +56,9 @@ const qualificationData = [
       //   years: "October 2022 - July 2024",
       // },
       {
-        company: "Rev9 Solutions",
-        role: "MERN Stack Developer",
-        years: "October 2024 - November 2025",
+        company: "Personal Projects",
+        role: "Frontend, Backend, and Mobile App Developer",
+        years: "2024 - Present",
       },
     ],
   },
@@ -69,22 +69,22 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "Reactjs, Nextjs",
+        name: "HTML, CSS, Tailwind CSS",
       },
       {
-        name: "TailwindCSS, Material UI",
+        name: "JavaScript, React, Next.js",
       },
       {
-        name: "Javascript, Typescript",
+        name: "Node.js, Express.js",
       },
       {
-        name: "Expressjs, Nestjs, Nodejs",
+        name: "MongoDB, REST APIs",
       },
       {
-        name: "Mongodb, MySQL, PostgreSQL"
+        name: "WordPress, E-commerce"
       },
       {
-        name: "AWS, REST API's ",
+        name: "Freelancing, UI Implementation",
       },
     ],
   },
@@ -99,6 +99,15 @@ const skillData = [
       },
       {
         imgPath: "/about/wordpress.svg",
+      },
+      {
+        imgPath: "/about/mongodb.svg",
+      },
+      {
+        imgPath: "/about/express.svg",
+      },
+{
+        imgPath: "/about/aws.svg",
       },
     ],
   },
@@ -117,9 +126,13 @@ const About = () => {
         </h2>
         <div className="flex flex-col xl:flex-row">
           {/* Image */}
-          <div className="hidden xl:flex flex-1 relative">
-            <DevImg containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative" imgSrc="/about/dev.png" />
-          </div>
+          {/* <div className="hidden xl:flex flex-1 relative">
+            <DevImg
+              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative overflow-hidden"
+              imgStyles="object-contain"
+              imgSrc="/about/blueprofile.png"
+            />
+          </div> */}
           {/* Tabs */}
           <div className="flex-1">
             <Tabs defaultValue="personal">
@@ -133,8 +146,8 @@ const About = () => {
                 {/* Personal */}
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">Unmatched service quality for over 2 years</h3>
-                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I specialize in crafting intuitive websites with cutting-edge technology, delivering dynamic and engaging user experiences.</p>
+                    <h3 className="h3 mb-4">Clean digital products for web and mobile</h3>
+                    <p className="subtitle max-w-xl mx-auto xl:mx-0">I am a passionate Full Stack Developer with expertise in frontend, backend, and WordPress development. I build clean, scalable, and user-friendly applications for real business needs.</p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
                       {infoData.map((item, index) => (
@@ -148,7 +161,7 @@ const About = () => {
                     <div className="flex flex-col gap-y-2">
                       <div className="text-primary">Language Skills</div>
                       <div className="border-b border-border">
-                        <div>English, Urdu & Punjabi</div>
+                        <div>English & Urdu</div>
                       </div>
                     </div>
                   </div>
@@ -156,7 +169,7 @@ const About = () => {
                 {/* Qualifications */}
                 <TabsContent value="qualifications">
                   <div>
-                    <h3 className="h3 mb-8 text-center xl:text-left">My Awesome Journey</h3>
+                    <h3 className="h3 mb-8 text-center xl:text-left">My Development Journey</h3>
                     {/* Experience and Education Wrapper */}
                     <div className="grid md:grid-cols-2 gap-y-8">
                       {/* Experience */}
@@ -219,7 +232,7 @@ const About = () => {
                 {/* Skills */}
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">Tools I use Everyday</h3>
+                    <h3 className="h3 mb-8">Tools and technologies I use</h3>
                     {/* Skills */}
                     <div className="mb-16">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>

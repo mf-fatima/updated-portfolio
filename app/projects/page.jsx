@@ -6,90 +6,69 @@ import ProjectCard from "@/components/ProjectCard";
 import { CardContent } from "@/components/ui/card";
 
 const ProjectData = [
-  
   {
-    image: "/work/portfolio.png",
-    category: "next js",
-    name: "Portfolio",
+    image: "/work/foodrent.png",
+    category: "mobile app",
+    name: "Food & Rental App",
     description:
-      "Explore my portfolio website to see my work as a MERN stack developer, showcasing projects with technical expertise.",
-    link: "/",
-    github: "https://github.com/tayyabcheema/portfolio",
-  },
-  
-  {
-    image: "/work/lifeflow.png",
-    category: "full stack",
-    name: "Lifeflow",
-    description:
-      "Lifeflow is a blood management system for tracking stock, scheduling donations, and managing appointments efficiently.",
-    link: "/",
-    github: "https://github.com/tayyabcheema/Lifeflow-FYP",
-  },
-  {
-    image: "/work/booking.png",
-    category: "react js",
-    name: "Hotel Reservation",
-    description:
-      "Hotel reservation website for users to easily search, compare, and book rooms with real-time availability and secure payments.",
-    link: "/",
-    github: "https://github.com/tayyabcheema/Hotel-Reservation",
+      "A mobile app for students and workers to find home-cooked meals and rooms for rent.",
+    link: "https://github.com/mf-fatima",
+    github: "https://github.com/mf-fatima",
   },
   {
     image: "/work/shopsy.png",
+    category: "wordpress",
+    name: "Clothing Store",
+    description:
+      "A WordPress e-commerce store with modern UI, product browsing, and payment-ready shopping flows.",
+    link: "https://www.youtube.com/",
+    github: "https://github.com/mf-fatima",
+  },
+  {
+    image: "/work/hms.png",
+    category: "desktop app",
+    name: "Hospital Management System",
+    description:
+      "A C# desktop application for hospital workflow automation and management tasks.",
+    link: "https://github.com/mf-fatima",
+    github: "https://github.com/mf-fatima",
+  },
+  {
+    image: "/work/buffer.jpg",
     category: "react js",
-    name: "Shopsy",
+    name: "Buffer Clone",
     description:
-      "Shopsy an online shopping website that allows users to browse, compare, and purchase products easily.",
-    link: "/",
-    github: "/",
+      "A responsive Buffer website clone built with HTML, Tailwind CSS, and JavaScript.",
+    link: "https://buffer-clone-tawny.vercel.app",
+    github: "https://github.com/mf-fatima",
   },
   {
-    image: "/work/real_estate.png",
-    category: "next js",
-    name: "Real Estate",
+    image: "/work/todo.png",
+    category: "react js",
+    name: "To-Do App",
     description:
-      "Real Estate website that enables users to search, compare, and inquire about properties, providing detailed options.",
-    link: "/",
-    github: "/",
+      "A responsive To-Do app with task management, progress tracking, and dark/light mode.",
+    link: "https://my-to-do-app-pi.vercel.app",
+    github: "https://github.com/mf-fatima",
   },
   {
-    image: "/work/tactics.png",
-    category: "full stack",
-    name: "Tactical Button",
+    image: "/work/travel.png",
+    category: "mern stack",
+    name: "Travel Blogging Website",
     description:
-      "Tactical Button is a football strategy tool with session recording, tactical drawings, team formations, and premium analysis features.",
-    link: "/",
-    github: "/",
+      "A full-stack travel blogging platform where users can create, read, and manage travel blogs.",
+    link: "https://github.com/mf-fatima/travel_blog-frontend",
+    github: "https://github.com/mf-fatima/travel-blog-backend",
   },
   {
-    image: "/work/zero-app.png",
-    category: "full stack",
-    name: "Zero App",
+    image: "/work/ecom.png",
+    category: "mern stack",
+    name: "Multi-Vendor E-commerce",
     description:
-      "Zero App is a real estate analytics platform with real-time dashboards, AI-driven insights, and CRM integrations to automate workflows.",
-    link: "/",
-    github: "/",
+      "A MERN e-commerce platform with secure authentication, product, cart, and order management.",
+    link: "https://github.com/mf-fatima/ecommerce-frontend",
+    github: "https://github.com/mf-fatima/my_ecommerce_backened",
   },
-    {
-    image: "/work/aspiro.png",
-    category: "full stack",
-    name: "Aspiro",
-    description:
-      "Aspiro is a AI based career path platform which suggests users best courses analyzing their CV and questionner.",
-    link: "https://aspiro-frontend.vercel.app/",
-    github: "https://github.com/tayyabcheema/Aspiro-Frontend",
-  },
-      {
-    image: "/work/soarfare.png",
-    category: "next js",
-    name: "SoarFare",
-    description:
-      "Soarfare is a flight booking platform to book flights built in nextjs with shadcn, tailwindcss and framer motion.",
-    link: "https://soarfare-tayyabcheema.vercel.app/",
-    github: "https://github.com/tayyabcheema",
-  },
-  
 ];
 
 // Filtered Projects
@@ -120,12 +99,12 @@ const Projects = () => {
         </h2>
         {/* Tabs */}
         <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          <TabsList className="w-full grid h-full md:grid-cols-4 lg:max-w-[640px] mb-12 mx-auto md:border dark:border-none">
+          <TabsList className="flex h-auto w-full max-w-[1100px] flex-wrap gap-3 rounded-[24px] p-3 mb-12 mx-auto md:border dark:border-none">
             {categories.map((category, index) => {
               return (
                 <TabsTrigger
                   onClick={() => setCategory(category)}
-                  className="capitalize w-[162px] md:w-auto"
+                  className="capitalize min-w-[150px] flex-1 px-5"
                   value={category}
                   key={index}
                 >

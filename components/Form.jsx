@@ -8,7 +8,6 @@ import {
   MailIcon,
   ArrowRightIcon,
   MessageSquare,
-  Phone,
 } from "lucide-react";
 import emailjs from "@emailjs/browser";
 import { useEffect, useRef, useState } from "react";
@@ -30,12 +29,12 @@ const Form = () => {
       )
       .then(
         () => {
-          setStatus("Email Sent Successfully! ✅ ");
-          formref.current.reset(); // ✅ Clear form after success
+          setStatus("Email sent successfully!");
+          formref.current.reset();
         },
         (error) => {
           console.log(error);
-          setStatus("Failed to Send Email! ❌");
+          setStatus("Failed to send email.");
         }
       );
   };
@@ -97,7 +96,7 @@ const Form = () => {
 
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/40731265498?text=Hi%20I%20want%20to%20talk%20with%20you"
+          href="mailto:mf-fatima@users.noreply.github.com?subject=Portfolio%20Inquiry"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full sm:w-auto"
@@ -106,7 +105,7 @@ const Form = () => {
             type="button"
             className="flex items-center gap-x-1 w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white"
           >
-            WhatsApp <Phone size={20} />
+            Email <MailIcon size={20} />
           </Button>
         </a>
       </div>

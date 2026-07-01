@@ -32,17 +32,17 @@ const Contact = () => {
             {/* mail */}
             <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary" />
-              <div>tayyabcheemadev@gmail.com</div>
+              <div>Open for collaboration</div>
             </div>
             {/* Address */}
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary" />
-              <div>Bucharest, Romania</div>
+              <div>Pakistan</div>
             </div>
             {/* Phone Number */}
             <div className="flex items-center gap-x-8">
               <PhoneCall size={18} className="text-primary" />
-              <div>+40731265498</div>
+              <div>Available on request</div>
             </div>
           </div>
           <Form />
