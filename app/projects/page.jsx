@@ -69,6 +69,15 @@ const ProjectData = [
     link: "https://github.com/mf-fatima/ecommerce-frontend",
     github: "https://github.com/mf-fatima/my_ecommerce_backened",
   },
+  {
+    image: "/work/blood.png",
+    category: "mern stack",
+    name: "LifeFlow Smart Blood Bank",
+    description:
+      "LifeFlow is a blood management system for tracking stock, scheduling donations, and managing appointments efficiently.",
+    link: "https://lifeflow-frontend-client.vercel.app/",
+    github: "https://lifeflow-frontend-client.vercel.app/",
+  },
 ];
 
 // Filtered Projects

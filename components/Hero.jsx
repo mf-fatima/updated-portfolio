@@ -140,7 +140,7 @@ to-red-500 shadow-[0_0_50px_rgba(254,107,87,0.55)]">
               <motion.img
                 src="/hero/smileprofile.png"
                 alt="Maryam Fatima"
-                animate={{
+                animate={{ 
                   y: [0, -12, 0],
                 }}
                 transition={{
