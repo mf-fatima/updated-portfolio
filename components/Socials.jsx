@@ -17,12 +17,12 @@ const icons = [
     label: "GitHub",
   },
   {
-    path: "https://www.linkedin.com/",
+    path: "https://www.linkedin.com/in/maryam-fatima-472037325/",
     name: <RiLinkedinFill/>,
     label: "LinkedIn",
   },
   {
-    path: "mailto:",
+    path: "mailto:maryamasjad033@gmail.com",
     name: <RiMailFill/>,
     label: "Email",
   },

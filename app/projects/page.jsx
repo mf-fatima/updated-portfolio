@@ -12,8 +12,8 @@ const ProjectData = [
     name: "Food & Rental App",
     description:
       "A mobile app for students and workers to find home-cooked meals and rooms for rent.",
-    link: "https://github.com/mf-fatima",
-    github: "https://github.com/mf-fatima",
+    link: "https://github.com/mf-fatima/Dwell-N-Delight-Mobile-app-frontend",
+    github: "https://github.com/mf-fatima/Dwell-N-Delight-Mobile-app-frontend",
   },
   {
     image: "/work/shopsy.png",
@@ -21,7 +21,7 @@ const ProjectData = [
     name: "Clothing Store",
     description:
       "A WordPress e-commerce store with modern UI, product browsing, and payment-ready shopping flows.",
-    link: "https://www.youtube.com/",
+    link: "https://www.youtube.com/watch?v=QyvnT_E7xHQ",
     github: "https://github.com/mf-fatima",
   },
   {
@@ -31,7 +31,7 @@ const ProjectData = [
     description:
       "A C# desktop application for hospital workflow automation and management tasks.",
     link: "https://github.com/mf-fatima",
-    github: "https://github.com/mf-fatima",
+    github: "https://github.com/mf-fatima/Hospital_system",
   },
   {
     image: "/work/buffer.jpg",
@@ -40,7 +40,7 @@ const ProjectData = [
     description:
       "A responsive Buffer website clone built with HTML, Tailwind CSS, and JavaScript.",
     link: "https://buffer-clone-tawny.vercel.app",
-    github: "https://github.com/mf-fatima",
+    github: "https://github.com/mf-fatima/buffer_clone",
   },
   {
     image: "/work/todo.png",
@@ -49,7 +49,7 @@ const ProjectData = [
     description:
       "A responsive To-Do app with task management, progress tracking, and dark/light mode.",
     link: "https://my-to-do-app-pi.vercel.app",
-    github: "https://github.com/mf-fatima",
+    github: "https://github.com/mf-fatima/My-To_Do_App",
   },
   {
     image: "/work/travel.png",
